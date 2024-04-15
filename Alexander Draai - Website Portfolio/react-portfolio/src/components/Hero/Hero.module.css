@@ -1,7 +1,4 @@
 @import "../../vars.css" ;
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 .container{
     position: relative;
     display: flex;
