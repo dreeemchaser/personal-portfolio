@@ -1,0 +1,64 @@
+                 <li className={styles.skillItem}>
+                        <img
+                            src={getImageUrl("skills/Spring-Icon.png")}
+                            alt="Cursor"
+                        />
+                        <div className={styles.skillItemText}>
+                            <h3> Springboot </h3>
+                            <p> As a recent graduate, I proudly call myself a full-stack developer. With my diploma in
+                                Application Development and a portfolio with coding projects, I have full confidence in
+                                my abilities. </p>
+                        </div>
+                    </li>
+
+                    <li className={styles.skillItem}>
+                        <img
+                            src={getImageUrl("skills/react.png")}
+                            alt="Cursor"
+                        />
+                        <div className={styles.skillItemText}>
+                            <h3> React </h3>
+                            <p> As a recent graduate, I proudly call myself a full-stack developer. With my diploma in
+                                Application Development and a portfolio with coding projects, I have full confidence in
+                                my abilities. </p>
+                        </div>
+                    </li>
+
+                    <li className={styles.skillItem}>
+                        <img
+                            src={getImageUrl("skills/HTML-Icon.png")}
+                            alt="Cursor"
+                        />
+                        <div className={styles.skillItemText}>
+                            <h3> HTML </h3>
+                            <p> As a recent graduate, I proudly call myself a full-stack developer. With my diploma in
+                                Application Development and a portfolio with coding projects, I have full confidence in
+                                my abilities. </p>
+                        </div>
+                    </li>
+
+                    <li className={styles.skillItem}>
+                            <img
+                                src={getImageUrl("skills/css.png")}
+                                alt="Cursor"
+                            />
+                        <div className={styles.skillItemText}>
+                            <h3> CSS </h3>
+                            <p> As a recent graduate, I proudly call myself a full-stack developer. With my diploma in
+                                Application Development and a portfolio with coding projects, I have full confidence in
+                                my abilities. </p>
+                        </div>
+                    </li>
+
+                    <li className={styles.skillItem}>
+                            <img
+                                src={getImageUrl("skills/figma.png")}
+                                alt="Cursor"
+                            />
+                        <div className={styles.skillItemText}>
+                            <h3> Figma </h3>
+                            <p> As a recent graduate, I proudly call myself a full-stack developer. With my diploma in
+                                Application Development and a portfolio with coding projects, I have full confidence in
+                                my abilities. </p>
+                        </div>
+                    </li>

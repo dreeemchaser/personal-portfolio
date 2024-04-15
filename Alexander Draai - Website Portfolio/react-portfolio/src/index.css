@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 1px;
+    font-family: "Outfit",monospace;
+    max-width: 3000px;
+    border-radius: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

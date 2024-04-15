@@ -1,0 +1,10 @@
+@import url(./vars.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App{
+    background-color: var(--color-bg);
+    width: 100%; /*100% width of the page that it is on. */
+    height: 100%; /*100% height of the page that it is on. */
+    color: white;
+}

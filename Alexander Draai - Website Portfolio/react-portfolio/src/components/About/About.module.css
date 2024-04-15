@@ -1,0 +1,131 @@
+@import "../../vars.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    position: relative;
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 120px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    text-decoration: underline;
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutIcons{
+    padding-right: 10px;
+}
+
+.aboutImage {
+    width: 30%;
+    border-radius: 50%;
+    padding-top:  18px;
+    padding-left: 18px;
+    margin-right: 18px;
+    margin-left: 12px;
+    transition: transform 0.5s ease-in-out; /* Adding transition property */
+}
+
+
+.aboutItems {
+    padding-left: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.aboutItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    padding: 25px;
+    background-image: linear-gradient(
+            90deg,
+            rgba(165, 215, 232, 0.42) 0%,
+            rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.aboutItem:hover {
+    background-size: 100% 100%;
+}
+
+.aboutItem h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.techStackTitle{
+    font-size: 25px;
+    font-weight: 600;
+    color: #422f2f;
+    text-align: center;
+    padding-bottom: 10px;;
+}
+
+.techImg{
+    padding:50px ;
+    text-align: center;
+    align-items: center;
+}
+.aboutItem p{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .title{
+        text-align: center;
+    };
+
+    .techImg{
+       display: none;
+    }
+}
