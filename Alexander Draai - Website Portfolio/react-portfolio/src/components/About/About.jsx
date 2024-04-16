@@ -9,7 +9,6 @@ export const About = () => {
         >
             <h2 className={styles.title}> About </h2>
             <div className={styles.content}>
-
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
                         <div className={styles.aboutIcons}>
@@ -64,7 +63,6 @@ export const About = () => {
                             </p>
                         </div>
                     </li>
-
                 </ul>
             </div>
         </section>
