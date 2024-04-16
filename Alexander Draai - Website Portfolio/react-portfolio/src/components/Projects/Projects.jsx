@@ -4,6 +4,7 @@ import styles from "../Projects/Projects.module.css";
 import {getImageUrl} from "../../utils.js";
 
 const Projects = () => {
+
     return (
         <section
             className={styles.container}
@@ -47,9 +48,12 @@ const Projects = () => {
                 <p className={styles.cardContentTitle}>
                     <button
                         className={styles.btnGitHubLink}
+                        onClick={function () {
+                            open("");
+                        }}
                     >
-                    <a
-                            href="https://github.com/dreeemchaser/TO-DO-List.git"
+                        <a
+                            href="https://github.com/dreeemchaser/e-commerce.git"
                         >
                             GitHub Link
                         </a>
