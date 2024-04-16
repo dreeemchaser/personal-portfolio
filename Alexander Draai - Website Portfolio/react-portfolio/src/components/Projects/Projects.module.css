@@ -90,6 +90,17 @@ a{
     text-decoration: none;
     color: #FFFFFF;
 }
+@media screen and (max-width: 830px) {
+    .container {
+        padding: 20px; /* Adjust padding for smaller screens */
+        margin-left: 5%; /* Adjust margin for smaller screens */
+        margin-right: 5%; /* Adjust margin for smaller screens */
+    }
 
-
+    .card {
+        width: calc(100% - 50px); /* Adjust width to take full width with some margin */
+        max-width: none; /* Remove maximum width */
+        margin: 15px auto; /* Center cards horizontally with vertical margin */
+    }
+}
 

@@ -22,8 +22,6 @@ export const Hero = () => {
                 src={getImageUrl("hero/hero-alexander.png")}
                 alt="hero Image of me"
             />
-            <div className={styles.topBlur}>  </div>
-            <div className={styles.bottomBlur}> </div>
         </section>
     );
 };

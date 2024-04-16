@@ -9,12 +9,15 @@ const Projects = () => {
             className={styles.container}
             id="projects">
             <h2 className={styles.projectsTitle}> Projects </h2>
+
+
+
             {/* --------------------------------capstone-------------------------------------*/}
             <div className={styles.card}>
                 <h2 className={styles.cardContentTitle}> e-Commerce Website</h2>
                 <div>
                     <img alt="HTML-Icon"
-                         src={getImageUrl("projects/to-do-list.png")}
+                         src={getImageUrl("projects/e-commerce.png")}
                          className={styles.bannerImage}
                     />
                 </div>

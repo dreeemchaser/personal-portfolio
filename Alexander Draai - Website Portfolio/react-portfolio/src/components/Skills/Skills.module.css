@@ -74,16 +74,11 @@
     }
 
     .skillItems {
-        margin-top: 29px;
+        flex-direction: column; /* Change direction to column */
+        align-items: center; /* Center items horizontally */
     }
 
     .skillItem {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .skillsTitle{
-        text-align: center;
-        color: black;
+        max-width: 100%; /* Set maximum width to full width */
     }
 }
