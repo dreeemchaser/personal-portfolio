@@ -81,4 +81,16 @@
     .content{
         align-items: center;
     }
+
+    .contactBtn{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .description{
+        font-size: 12px;
+    }
 }

@@ -41,18 +41,19 @@ h2 {
     gap: 25px;
 }
 
+
 .link a {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: 1.5px;
 }
-
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column;
         gap: 23px;
+        text-align: center;
     }
 
     .text {
@@ -61,7 +62,17 @@ h2 {
         align-items: center;
     }
 
+    .link a{
+        font-size: 10px;
+    }
+    .text p {
+        font-size: 5px;
+    }
+    .contactLinks{
+        font-size: 15px;
+    }
     .links {
         align-items: center;
+        font-size: 10px;
     }
 }
