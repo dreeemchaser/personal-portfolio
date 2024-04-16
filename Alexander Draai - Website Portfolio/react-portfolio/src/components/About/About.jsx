@@ -9,11 +9,6 @@ export const About = () => {
         >
             <h2 className={styles.title}> About </h2>
             <div className={styles.content}>
-                <img
-                    className={styles.aboutImage}
-                    src={getImageUrl("hero/hero-alexander.png")}
-                    alt="Arms folded."
-                />
 
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>

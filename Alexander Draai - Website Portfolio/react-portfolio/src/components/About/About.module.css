@@ -80,6 +80,11 @@
     padding-bottom: 10px;
 }
 
+
+.aboutItem p{
+    text-align: left;
+}
+
 .techStackTitle{
     font-size: 25px;
     font-weight: 600;

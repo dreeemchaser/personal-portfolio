@@ -59,19 +59,18 @@ const Projects = () => {
 
             {/* -----------------------------------------------------------------------------*/}
 
-            {/* --------------------------------to-do-list-------------------------------------*/}
+            {/* -----------------------------password-generator-------------------------------------*/}
             <div className={styles.card}>
-                <h2 className={styles.cardContentTitle}> To-Do-List</h2>
+                <h2 className={styles.cardContentTitle}> Password Generator </h2>
                 <div>
                     <img alt="HTML-Icon"
-                         src={getImageUrl("projects/to-do-list.png")}
+                         src={getImageUrl("projects/password-generator.png")}
                          className={styles.bannerImage}
                     />
                 </div>
-                <p>
-                    Simple To-Do-List application <br/>
-                    using HTML, CSS, JavaScript.
-                </p>
+                <p> Users are able to select passwords requirements
+                    and clicking generate will produce a password.
+                    . <br/></p>
                 <div className={styles.techStack}>
                     <h2 className={styles.cardContentTitle}> Tech-Stack </h2>
                     <img alt="HTML-Icon"
@@ -92,7 +91,7 @@ const Projects = () => {
                         className={styles.btnGitHubLink}
                     >
                         <a
-                            href="https://github.com/dreeemchaser/TO-DO-List.git"
+                            href="https://github.com/dreeemchaser/Password-Generator.git"
                         >
                             GitHub Link
                         </a>
@@ -186,18 +185,19 @@ const Projects = () => {
             </div>
             {/* -------------------------------------------------------------------------*/}
 
-            {/* -----------------------------password-generator-------------------------------------*/}
+            {/* --------------------------------to-do-list-------------------------------------*/}
             <div className={styles.card}>
-                <h2 className={styles.cardContentTitle}> Password Generator </h2>
+                <h2 className={styles.cardContentTitle}> To-Do-List</h2>
                 <div>
                     <img alt="HTML-Icon"
-                         src={getImageUrl("projects/password-generator.png")}
+                         src={getImageUrl("projects/to-do-list.png")}
                          className={styles.bannerImage}
                     />
                 </div>
-                <p> Users are able to select passwords requirements <br/>
-                    and clicking generate will produce a password.
-                    . <br/></p>
+                <p>
+                    Simple To-Do-List application <br/>
+                    using HTML, CSS, JavaScript.
+                </p>
                 <div className={styles.techStack}>
                     <h2 className={styles.cardContentTitle}> Tech-Stack </h2>
                     <img alt="HTML-Icon"
@@ -218,7 +218,7 @@ const Projects = () => {
                         className={styles.btnGitHubLink}
                     >
                         <a
-                            href="https://github.com/dreeemchaser/Password-Generator.git"
+                            href="https://github.com/dreeemchaser/TO-DO-List.git"
                         >
                             GitHub Link
                         </a>
@@ -226,6 +226,8 @@ const Projects = () => {
                 </p>
             </div>
             {/* -------------------------------------------------------------------------*/}
+
+
 
         </section>
     );
